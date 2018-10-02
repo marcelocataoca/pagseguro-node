@@ -5,7 +5,6 @@ var request = require('request');
 app.listen(3000);
 
 app.use(function (req, res, next) {
-    debugger;
     // Website you wish to allow to connect
     res.header('Access-Control-Allow-Origin', '*');
 
