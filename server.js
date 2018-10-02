@@ -21,6 +21,7 @@ app.use(function (req, res, next) {
     next();
 });
 
+//chamada pro pagseguro passando os dados e o token e retornando o code checkout 
 app.post('/livro',
     function (req, res, next) {
         request({
